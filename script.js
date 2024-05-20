@@ -46,7 +46,7 @@ function clearDom() {
 //user Input for squares per row
 function userGrid() {
   squareQuantity = parseInt(
-    prompt("How many squares per row do want? (max 100)"),
+    prompt("How many squares per row do you want? (max 100)"),
     10
   );
   if (squareQuantity > 100) {

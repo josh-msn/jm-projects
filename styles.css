@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(95, 94, 95);
+}
+
+.content-wrapper {
+  max-width: 480px;
+  margin: auto;
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: auto;
+  background-color: black;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+#input-btn,
+#clear-btn {
+  width: 220px;
+  height: 30px;
+  margin: 5px;
+  justify-content: center;
+  background-color: rgb(27, 27, 27);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#input-btn:hover,
+#clear-btn:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.square {
+  box-sizing: border-box;
+  border: 1px solid rgb(236, 236, 236);
+  background-color: white;
+}
+
+.square:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 1px 1px 2px rgba(43, 42, 42, 0.459);
+}
